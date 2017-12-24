@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Online Food Ordering"
+  id="myeclipse.1505382527140"
+  context-root="/Online Food Ordering"
+  j2ee-spec="5.0"
+  archive="Online Food Ordering.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

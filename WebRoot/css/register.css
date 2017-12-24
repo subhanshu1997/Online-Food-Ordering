@@ -1,0 +1,65 @@
+input[type=text],input[type=number], select {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    ;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 230px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+	 margin-left:310px; 
+	margin-top: 50px;
+	margin-bottom: 25px; 
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    font-size: 130%;
+    width :50%;
+}
+body{
+	
+	background-image: url("images\\Food5.jpg");
+}
+h3{
+	text-align :center;
+	text-decoration-color: white;
+}
+
+label{
+	margin-left: 20px;
+	}
+
+     width: 30%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cancel:hover {
+    background-color: #C80000;
+}
+
+#cancel{text-decoration: none; }
