@@ -35,7 +35,7 @@ public class login extends HttpServlet {
 		String pass=req.getParameter("pass");
 		int flag=0;
 		try{
-			PreparedStatement ps=dao.getcon().prepareStatement("select * from student where email like ? and password like ?");
+			PreparedStatement ps=dao.getcon().prepareStatement("select * from student where email like ? and pass like ?");
 		ps.setString(1,email);
 		ps.setString(2,pass);
 		ResultSet rs=ps.executeQuery();
@@ -56,7 +56,7 @@ public class login extends HttpServlet {
 		}
 		else if(flag==0){
 			try{
-				PreparedStatement ps1=dao.getcon().prepareStatement("select * from employee where email like ? and password like ?");
+				PreparedStatement ps1=dao.getcon().prepareStatement("select * from employee where email like ? and pass like ?");
 			ps1.setString(1,email);
 			ps1.setString(2,pass);
 			ResultSet rs1=ps1.executeQuery();
